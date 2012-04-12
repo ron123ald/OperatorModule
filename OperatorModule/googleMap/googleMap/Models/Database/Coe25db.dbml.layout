@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Coe25db">
+  <DataContextMoniker Name="/Coe25dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="91f1ddea-bc5a-47bd-81c9-30ac1fe56aa4" absoluteBounds="3.75, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Coe25dbDataContext/tbl_Cluster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26e84a6e-0cd4-4bba-a959-ca08c95bdcb8" absoluteBounds="3.7649999999999997, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2819b986-82f7-4182-92d6-df27b3526b48" absoluteBounds="3, 3.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Coe25dbDataContext/tbl_Map" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17fc6743-c518-430c-aee1-078ab4a41959" absoluteBounds="3.015, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62e51681-bce9-4674-935b-31f64a04ae33" absoluteBounds="6.5, 1.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Coe25dbDataContext/tbl_Post" />
+      <nestedChildShapes>
+        <elementListCompartment Id="afd65896-5700-4073-9ab2-238ae48cd17f" absoluteBounds="6.515, 2.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.5 : 3.39589680989583); (7.5 : 4.38544840494792); (5 : 4.38544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Coe25dbDataContext/tbl_Post/tbl_Post_tbl_Map" />
+      <nodes>
+        <classShapeMoniker Id="62e51681-bce9-4674-935b-31f64a04ae33" />
+        <classShapeMoniker Id="2819b986-82f7-4182-92d6-df27b3526b48" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 1.85179768880208); (6.5 : 1.85179768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Coe25dbDataContext/tbl_Cluster/tbl_Cluster_tbl_Post" />
+      <nodes>
+        <classShapeMoniker Id="91f1ddea-bc5a-47bd-81c9-30ac1fe56aa4" />
+        <classShapeMoniker Id="62e51681-bce9-4674-935b-31f64a04ae33" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1d0e7b11-b875-4dcd-b776-a0bcc93cdc4c" absoluteBounds="0.625, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Coe25dbDataContext/tbl_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a784e9e2-3700-43b7-bbaa-2af575295b68" absoluteBounds="0.64, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 2.70599609375); (2.625 : 2.70599609375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Coe25dbDataContext/tbl_Post/tbl_Post_tbl_History" />
+      <nodes>
+        <classShapeMoniker Id="62e51681-bce9-4674-935b-31f64a04ae33" />
+        <classShapeMoniker Id="1d0e7b11-b875-4dcd-b776-a0bcc93cdc4c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

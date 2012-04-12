@@ -1,0 +1,39 @@
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\Serial.exe
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\Serial.pdb
+C:\Documents and Settings\users\Ronald\Server\OperatorModule\Serial\obj\x86\Debug\Serial.SerialForm.resources
+E:\All About Our Project\OperatorModule\Serial\bin\Debug\Serial.exe.config
+E:\All About Our Project\OperatorModule\Serial\bin\Debug\Serial.exe
+E:\All About Our Project\OperatorModule\Serial\bin\Debug\Serial.pdb
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\Serial.SerialForm.resources
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\Serial.exe
+E:\All About Our Project\OperatorModule\Serial\obj\x86\Debug\Serial.pdb
+H:\OperatorModule\Serial\bin\Debug\Serial.exe.config
+H:\OperatorModule\Serial\bin\Debug\Serial.exe
+H:\OperatorModule\Serial\bin\Debug\Serial.pdb
+H:\OperatorModule\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\OperatorModule\Serial\obj\x86\Debug\Serial.SerialForm.resources
+H:\OperatorModule\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+H:\OperatorModule\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\OperatorModule\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\OperatorModule\Serial\obj\x86\Debug\Serial.exe
+H:\OperatorModule\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\KimBea\Desktop\OperatorModule\Serial\bin\Debug\Serial.exe.config
+C:\Users\KimBea\Desktop\OperatorModule\Serial\bin\Debug\Serial.exe
+C:\Users\KimBea\Desktop\OperatorModule\Serial\bin\Debug\Serial.pdb
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\Serial.SerialForm.resources
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\Serial.exe
+C:\Users\KimBea\Desktop\OperatorModule\Serial\obj\x86\Debug\Serial.pdb

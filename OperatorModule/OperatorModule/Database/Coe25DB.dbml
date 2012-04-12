@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Coe25" Class="Coe25DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=KIMBEA-PC\KIMBEA;Initial Catalog=Coe25;User ID=sa" SettingsObjectName="OperatorModule.Properties.Settings" SettingsPropertyName="Coe25ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_Administrator" Member="tbl_Administrators">
+    <Type Name="tbl_Administrator">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Salt" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SerialNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Post" Member="tbl_Posts">
+    <Type Name="tbl_Post">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PostName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PostSerialNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cluster" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tbl_Post_tbl_Map" Member="tbl_Maps" ThisKey="ID" OtherKey="PostID" Type="tbl_Map" />
+      <Association Name="tbl_Post_tbl_History" Member="tbl_Histories" ThisKey="ID" OtherKey="PostID" Type="tbl_History" />
+      <Association Name="tbl_Cluster_tbl_Post" Member="tbl_Cluster" ThisKey="Cluster" OtherKey="ID" Type="tbl_Cluster" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Cluster" Member="tbl_Clusters">
+    <Type Name="tbl_Cluster">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UniqueCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ClusterPhoneNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tbl_Cluster_tbl_Post" Member="tbl_Posts" ThisKey="ID" OtherKey="Cluster" Type="tbl_Post" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Map" Member="tbl_Maps">
+    <Type Name="tbl_Map">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PostID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tbl_Post_tbl_Map" Member="tbl_Post" ThisKey="PostID" OtherKey="ID" Type="tbl_Post" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_History" Member="tbl_Histories">
+    <Type Name="tbl_History">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PostID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SessionGUID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsFixed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tbl_Post_tbl_History" Member="tbl_Post" ThisKey="PostID" OtherKey="ID" Type="tbl_Post" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
